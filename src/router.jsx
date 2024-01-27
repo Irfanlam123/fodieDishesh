@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import About from "./components/about";
-import Home from "./components/home";
-import Menu from "./components/menu";
-import Feature from "./components/feature";
-import Gallery from "./components/gallery";
-import Blog from "./components/blog";
-import Contacts from "./components/contacts";
+import About from "./container/about/about";
+import Home from "./container/home/home";
+import Menu from "./container/menu/menu";
+import Feature from "./container/features/feature";
+import Gallery from "./container/gallery/gallery";
+import Blog from "./container/blog/blog";
+import Contacts from "./container/contacts/contacts";
 
 
 

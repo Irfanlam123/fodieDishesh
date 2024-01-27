@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCartPlus, FaPhone } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Home from "./home";
+import Home from "../home/home";
 
 const Navbar = () => {
   const navBar = [

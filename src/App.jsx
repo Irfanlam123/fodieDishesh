@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./container/header/Navbar";
 
 import Routers from "./router";
-import Home from "./components/home";
+
 
 const App = () => {
   return (
