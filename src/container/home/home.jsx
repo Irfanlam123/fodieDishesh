@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Kaddu from "../../assets/kaddu.jpg";
 import Head from "./components/head";
 import Card from "./components/card";
+import Lover from "./components/lover";
 
 const Home = () => {
   const settings = {
@@ -36,13 +37,16 @@ const Home = () => {
         </h1>
         <p className="absolute bottom-72 font-bold text-sm">
           FROM YOUR FAVORITE RESTURANTS{" "}
-          <button className="px-5 py-1 bg-yellow-400 rounded-full">Menu</button>
         </p>
+        <button className="absolute px-5 py-1 bottom-48 bg-yellow-400 rounded-full">
+          Menu
+        </button>
       </div>
       <Head />
       <div className="flex container mx-auto p-4">
         <Card title="Card 2" content="This is the content of Card 1." />
       </div>
+      <Lover />
     </div>
   );
 };
