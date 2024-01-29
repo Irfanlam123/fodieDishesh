@@ -12,7 +12,7 @@ const Footer = () => {
             Business With Fodie
           </h2>
           <br />
-          <Link to="/menu">
+          <Link to="/">
             <button className="bg-yellow-300 text-white mt-20 rounded-full px-5 py-1">
               Get Started
             </button>
@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
           <div>
             <h2 className="text-lg text-white p-7">Helpline Numbers</h2>
-            <div className="p-7">
+            <div className="p-5">
               <ul className="text-white text-sm space-y-2">
                 <li>+911234567890</li>
                 <li>+911234567890</li>
