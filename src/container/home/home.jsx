@@ -43,7 +43,7 @@ const Home = () => {
           FROM YOUR FAVORITE RESTURANTS{" "}
         </p>
         <Link to="/menu">
-          <button className="px-5  absolute  text-xl  bottom-48 bg-yellow-400 rounded-full">
+          <button className="px-7 py-1  absolute  text-sm  bottom-48 bg-yellow-400 rounded-full">
             Menu
           </button>
         </Link>
