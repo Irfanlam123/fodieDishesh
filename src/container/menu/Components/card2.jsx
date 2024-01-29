@@ -50,7 +50,7 @@ const Card2 = ({ title, content }) => {
       </div>
       <div className="flex justify-center text-[10px] bg-gray-300 ">
         <div className="flex items-center   text-center space-x-2 mt-3 font-bold">
-          <div >View More New Dishes</div>
+          <div>View More New Dishes</div>
           <div>
             <IoIosArrowForward />
           </div>

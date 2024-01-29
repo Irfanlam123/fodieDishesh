@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex justify-around bg-black text-gray-300 p-5 items-center">
+      <div className="flex justify-around bg-gray-950 text-gray-300 p-5 items-center">
         <div>
           {" "}
           <span className="text-xl font-bold">F</span>ood{" "}
