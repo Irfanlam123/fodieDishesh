@@ -1,14 +1,30 @@
 import React from "react";
+import Pizza from "../features/pizza.jpg";
+import { Link } from "react-router-dom";
+import Chef from "./components/chef";
 
 const Feature = () => {
   return (
     <div>
-      <div className=" bg-slate-50 pt-6  font-bold">
-        <h1 className="flex justify-center text-2xl">WHY PEOPLE CHOOSE US</h1>
-        <p className="flex justify-center text-[10px]">
-          Check Most Popular Choice
-        </p>
+      <div className=" bg-gray-100 pt-3 flex justify-center py-3 font-bold">
+        <h1 className=" text-2xl">WHY PEOPLE CHOOSE US</h1>
       </div>
+
+      <div>
+        <img src={Pizza} alt="img" className="h-96 w-full" />
+      </div>
+      <div className="mt-4 relative flex justify-center">
+          <h2 className=" absolute bottom-80 text-3xl font-bold text-white ">WE ARE SERVING BEST FOOD IN THE CITY</h2>
+          <Link to="/menu">
+        <button className="bg-yellow-400 rounded-full px-5 py-1 absolute bottom-64 text-sm text-white font-bold">Check Out</button>
+
+        </Link>
+        
+        </div>
+        <Chef/>
+        
+        
+        
     </div>
   );
 };

@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import { BiLogoFacebook } from "react-icons/bi";
+
+import { BiLogoInstagram } from "react-icons/bi";
+import { BiLogoYoutube } from "react-icons/bi";
+import { BiLogoLinkedin } from "react-icons/bi";
+
 const Footer = () => {
   return (
     <div>
@@ -38,10 +44,21 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="ml-[90px] pt-4 text-white text-sm space-y-2  py-20">
-          <p>Privacy Policy</p>
-          <p>Terms and Conditions</p>
-          <p>2024,Fodie Dish.</p>
+        <div className="ml-[90px] pt-4  flex text-white text-sm space-y-2  py-20">
+          <div>
+            <p>Privacy Policy</p>
+            <p>Terms and Conditions</p>
+            <p>2024,Fodie Dish.</p>
+          </div>
+          <div className="text-white pl-[710px] text-xl flex space-x-3">
+            <BiLogoFacebook />
+
+            <BiLogoLinkedin />
+
+            <BiLogoYoutube />
+
+            <BiLogoInstagram />
+          </div>
         </div>
       </div>
     </div>

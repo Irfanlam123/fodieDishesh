@@ -6,6 +6,7 @@ import Feature from "./container/features/feature";
 import Gallery from "./container/gallery/gallery";
 import Blog from "./container/blog/blog";
 import Contacts from "./container/contacts/contacts";
+import Details from "./container/home/components/details";
 
 
 
@@ -22,6 +23,8 @@ function Routers() {
       <Route path="/contacts" element={<Contacts/>}/>
       
       <Route path="/about" element={<About />} />
+      <Route path="/details/:id" element={<Details/>}/>
+
 
     </Routes>
    

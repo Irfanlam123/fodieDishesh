@@ -2,6 +2,7 @@
 
 import React from "react";
 import kaddu from "../../../assets/kaddu.jpg";
+import { Link } from "react-router-dom";
 
 const Card = ({ title, content }) => {
   const item = [
@@ -25,15 +26,19 @@ const Card = ({ title, content }) => {
   return (
     <>
       <div className="flex space-x-3 p-6">
-        {item.map((e) => {
+        {item.map((e,i) => {
           return (
             <>
-              <div className="max-w-md  bg-white rounded-xl overflow-hidden shadow-md my-4">
+            
+           <Link to={`/details/${i}`}>
+            <div className="max-w-md  bg-white rounded-xl overflow-hidden shadow-md my-4">
                 <img className="h-48 w-full object-cover" src={e.img} />
                 <div className="p-6">
                   <p className="mt-2 text-gray-500">{e.text}</p>
                 </div>
               </div>
+              </Link>
+             
             </>
           );
         })}

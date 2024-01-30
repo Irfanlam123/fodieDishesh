@@ -1,6 +1,7 @@
 import React from "react";
 import Food1 from "../../../assets/food1.avif";
 import { MdStar } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Card = ({ title, content }) => {
   const item = [
@@ -27,6 +28,7 @@ const Card = ({ title, content }) => {
         {item.map((e) => {
           return (
             <>
+              
               <div className="max-w-md   bg-white rounded-xl overflow-hidden shadow-md my-4">
                 <img className="h-28 w-48  object-cover" src={e.img} />
 
@@ -44,6 +46,7 @@ const Card = ({ title, content }) => {
                   </div>
                 </div>
               </div>
+             
             </>
           );
         })}
