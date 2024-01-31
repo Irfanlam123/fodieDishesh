@@ -11,6 +11,7 @@ import Bottome from "./components/bottom";
 import { Link } from "react-router-dom";
 import Food from "../../assets/food1.avif";
 import Footer from "../footer/footer";
+import Auth from "../auth";
 
 const Home = () => {
   const settings = {
@@ -63,6 +64,7 @@ const Home = () => {
       </div>
       <Lover />
       <Bottome />
+      <Auth/>
       <Footer />
     </div>
   );

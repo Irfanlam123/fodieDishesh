@@ -1,7 +1,8 @@
 import React from "react";
-import Navbar from "./container/header/Navbar";
+
 
 import Routers from "./router";
+import Navbar from "./container/header/Navbar";
 
 const App = () => {
   return (

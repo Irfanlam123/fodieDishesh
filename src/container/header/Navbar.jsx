@@ -1,15 +1,13 @@
 import React from "react";
 import { FaCartPlus, FaPhone } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Home from "../home/home";
-import Logo from "../../assets/logo.png"
 
 const Navbar = () => {
   const navBar = [
     {
       id: 1,
       name: "Home",
-      link: "/",
+      link: "/home",
     },
     {
       id: 2,
@@ -21,21 +19,7 @@ const Navbar = () => {
       name: "Feature",
       link: "/feature",
     },
-    {
-      id: 4,
-      name: "Gallery",
-      link: "/gallery",
-    },
-    {
-      id: 5,
-      name: "Blog",
-      link: "/blog",
-    },
-    {
-      id: 6,
-      name: "Contacts",
-      link: "/contacts",
-    },
+
     {
       id: 7,
       name: "About",
@@ -61,7 +45,7 @@ const Navbar = () => {
             </>
           );
         })}
-        <FaCartPlus/>
+        <FaCartPlus />
       </div>
     </div>
   );
