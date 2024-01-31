@@ -2,6 +2,9 @@ import React from "react";
 import Pizza from "../features/pizza.jpg";
 import { Link } from "react-router-dom";
 import Chef from "./components/chef";
+import Cookie from "./components/cookie";
+import Drink from "./components/drink";
+import Kitchen from "./components/kitchen";
 
 const Feature = () => {
   return (
@@ -22,6 +25,11 @@ const Feature = () => {
         
         </div>
         <Chef/>
+        <Cookie/>
+        <Drink/>
+        <Kitchen/>
+        
+        
         
         
         

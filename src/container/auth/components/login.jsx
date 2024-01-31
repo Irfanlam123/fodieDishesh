@@ -10,6 +10,7 @@ const Login = () => {
   const closePopup = () => {
     setPopupOpen(false);
   };
+
   return (
     <div className="flex flex-col items-center justify-center">
       {/* Popup Trigger Button */}

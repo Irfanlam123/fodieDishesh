@@ -18,7 +18,7 @@ const Footer = () => {
             Business With Fodie
           </h2>
           <br />
-          <Link to="/">
+          <Link to="/home">
             <button className="bg-yellow-300 text-white mt-20 rounded-full px-5 py-1">
               Get Started
             </button>
