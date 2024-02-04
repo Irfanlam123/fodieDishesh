@@ -7,6 +7,14 @@ import Kaddu from "../../assets/kaddu.jpg";
 import Head from "./components/head";
 import Card from "./components/card";
 import Lover from "./components/lover";
+<<<<<<< HEAD
+=======
+import Bottome from "./components/bottom";
+import { Link } from "react-router-dom";
+import Food from "../../assets/food1.avif";
+import Footer from "../footer/footer";
+import Auth from "../auth";
+>>>>>>> 9f64a8e06a6580ba8cb7c13d09ff22708aeac9fc
 
 const Home = () => {
   const settings = {
@@ -25,7 +33,11 @@ const Home = () => {
           <img className="h-96 w-full" src={Kaddu} alt="img" />
         </div>
         <div>
+<<<<<<< HEAD
           <img className="h-96 w-full" src={Kaddu} alt="img" />
+=======
+          <img className="h-96 w-full" src={Food} alt="img" />
+>>>>>>> 9f64a8e06a6580ba8cb7c13d09ff22708aeac9fc
         </div>
         <div>
           <img className="h-96 w-full" src={Kaddu} alt="img" />
@@ -38,15 +50,38 @@ const Home = () => {
         <p className="absolute bottom-72 font-bold text-sm">
           FROM YOUR FAVORITE RESTURANTS{" "}
         </p>
+<<<<<<< HEAD
         <button className="absolute px-5 py-1 bottom-48 bg-yellow-400 rounded-full">
           Menu
         </button>
+=======
+        <Link to="/menu">
+          <button className="px-7 py-1  absolute  text-sm  bottom-48 bg-yellow-400 rounded-full">
+            Menu
+          </button>
+        </Link>
+        <div className="absolute bottom-10 ">
+          <ul className="flex space-x-20 font-medium text-sm">
+            <li>24/7 DELIVERY</li>
+            <li>2500 RESTURANTS</li>
+            <li>ORDER WITH APP </li>
+            <li>FAST DELIVERY</li>
+          </ul>
+        </div>
+        <div></div>
+>>>>>>> 9f64a8e06a6580ba8cb7c13d09ff22708aeac9fc
       </div>
       <Head />
       <div className="flex container mx-auto p-4">
         <Card title="Card 2" content="This is the content of Card 1." />
       </div>
       <Lover />
+<<<<<<< HEAD
+=======
+      <Bottome />
+      <Auth/>
+      <Footer />
+>>>>>>> 9f64a8e06a6580ba8cb7c13d09ff22708aeac9fc
     </div>
   );
 };
