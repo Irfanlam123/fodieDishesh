@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-const Menu = () => {
-  return (
-    <div>Menu</div>
-  )
-}
-
-export default Menu
-=======
 import React from "react";
 import Kaddu from "../../assets/kaddu.jpg";
 import { FaApple } from "react-icons/fa";
@@ -42,14 +31,11 @@ const Menu = () => {
         <Dish />
       </div>
       <div>
-        <Midle/>
-        <Card2/>
+        <Midle />
+        <Card2 />
       </div>
-      
-      
     </div>
   );
 };
 
 export default Menu;
->>>>>>> 9f64a8e06a6580ba8cb7c13d09ff22708aeac9fc
